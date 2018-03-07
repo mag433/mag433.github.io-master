@@ -1,0 +1,50 @@
+.dark-bg { background: #746161; }
+.medium-bg { background: #998B8B; }
+.light-bg { background: #BFB4B4; }
+
+.dark-txt { color: #4E5D4E; }
+.medium-txt { color: #6F7A6F; }
+.light-txt { color: #DEE0DE; }
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #CCCCCC;
+}
+.clear { clear: both;}
+.gallery ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.gallery li {
+  border: 1px solid #CCCCCC;
+  display: block;
+}
+.outerimage {
+  background: url('../webpagepic.jpg') top center no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+.innertext {
+ font-size: 30px;
+ color: white;
+ padding: 40px;
+ text-shadow: 1px 1px 3px #888; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+
+}
+/* A comment */
+body {
+  padding: 0;
+  margin: 0;
+}
+nav ul {
+  list-style-type: none; padding-left:0;
+}
+nav a { text-decoration: none;}
+
+img { max-width: 100%; }
+
+footer p { padding: 25px; }
